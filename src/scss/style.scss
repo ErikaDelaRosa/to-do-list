@@ -1,0 +1,42 @@
+body{
+    background-color:#BF6341;
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+    border-radius: 25%;
+    //border:3px black solid;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+};
+//decoration inside the div
+div {
+   // display:flex;
+    flex-direction: column;
+    background-color:#F2B705;
+    width: 50rem;
+    border: 3px black solid;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+}
+//decoration inside the button
+button {
+    background-color: #919041;
+    border-radius: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 15px;
+};
+//how do we receive the info from the list
+ol {
+    li {
+      list-style: none;
+      color:#736C4D;
+      font-style: italic;
+      font-size:18px;
+      &:hover {
+        background-color: #F28705;
+      }
+    }
+  };
+
+  
