@@ -8,22 +8,6 @@ const addToList = () => {
     document.querySelector('#userText').value="";
 };
 
-let completeList = document.querySelectorAll(".result");
-completeList.forEach(({style: item},i) => {
-    if (i % 2 ==1){
-        item.backgroundColor = (colorGen);
-    }
-    //item.paddingLeft = "1rem";
-    //item.paddingRight = "1rem";
-});
-
- let thingsToDo = document.querySelectorAll(".result");
- 
-result.forEach(({style: item}){
-    item.backgroundColor = colorGen();
-    item.height = "10rem";
-});
-
 function colorGen() {
     let result = "#";
     let HexNum = "0123456789ABCDEF";
@@ -31,5 +15,30 @@ function colorGen() {
       result += HexNum[Math.floor(Math.random() * 16)];
       // console.log(result);
     }
+    result+= "50";
     return result;
   };
+/*
+  completeList.forEach((element, index) => { 
+     if (index % 2 !== 0) { 
+    element.style.backgroundColor = colorGen();
+  };
+*/
+let completeList = document.querySelectorAll(".result");
+completeList.forEach(({style: item},i) => {
+    if (i % 2 ==1){
+        item.backgroundColor = colorGen();
+    } else {
+        item.backgroundColor = "#FFD091";
+    }
+    //item.paddingLeft = "1rem";
+    //item.paddingRight = "1rem";
+});
+
+ //let thingsToDo = document.querySelectorAll(".result");
+ 
+/*result.forEach(({style: item}){
+    item.backgroundColor = colorGen();
+    item.height = "10rem";
+});
+*/
