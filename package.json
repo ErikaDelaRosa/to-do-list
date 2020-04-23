@@ -1,7 +1,7 @@
 {
-  "name": "template",
+  "name": "23-04",
   "version": "1.0.0",
-  "description": "## SASS (Syntactically Awesome Style Sheet)",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "run-p watch watch:styles",
@@ -15,20 +15,12 @@
     "copy": "mkdir dist && rsync -avr --exclude=\"/scss\" src/ dist",
     "publish": "gh-pages -d dist"
   },
-  "author": "",
+  "author": "Hadi Nsreeny",
   "license": "ISC",
   "devDependencies": {
     "gh-pages": "^2.1.1",
     "live-server": "^1.2.1",
     "npm-run-all": "^4.1.5",
     "sass": "^1.23.0-module.beta.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ErikaDelaRosa/project-template.git"
-  },
-  "bugs": {
-    "url": "https://github.com/ErikaDelaRosa/project-template/issues"
-  },
-  "homepage": "https://github.com/ErikaDelaRosa/project-template#readme"
+  }
 }

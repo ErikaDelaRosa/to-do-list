@@ -34,6 +34,14 @@ const addToList = () => {
   });
 };
 
+// i need to connect the HTML to the js, so i created this: how can i connect it to the formula above? 
+//let icon = document.getElementById('icon');
+//icon.innerHTML = '<i class="far fa-lightbulb"></i>' ;
+//let checkB = document.getElementById('check');
+//checkB.innerHTML ='<input type="checkbox" checked="checked>';
+
+
+
 //erika version
 function colorGen() {
     let result = "#";
