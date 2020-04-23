@@ -1,6 +1,6 @@
 body{
-    background-color:rgb(206, 180, 171);
-    //background: url(bg-img);
+    //background-color:rgb(206, 180, 171);
+    background-image: url(../img/bg-img.jpg);
     text-align: center;
     align-items: center;
     margin: 20px;
@@ -13,8 +13,8 @@ body{
 div {
    // display:flex;
     flex-direction: column;
-    //background-color:#F2B705;
-    background-image:url(../img/bg-img.jpg) ;
+    background-color:#F2B705;
+    //background-image:url(../img/anans.jpg) ;
     width: 50rem;
     border: 3px black solid;
     align-items: center;
@@ -38,6 +38,9 @@ ol {
       font-size:18px;
       &:hover {
         background-color: #F28705;
+      }
+      li.pointer {
+        cursor:zoom-in;
       }
     }
   };
