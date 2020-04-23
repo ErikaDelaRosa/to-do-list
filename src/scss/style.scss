@@ -1,5 +1,6 @@
 body{
-    background-color:#BF6341;
+    background-color:rgb(206, 180, 171);
+    //background: url(bg-img);
     text-align: center;
     align-items: center;
     margin: 20px;
@@ -7,11 +8,13 @@ body{
     //border:3px black solid;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 };
+
 //decoration inside the div
 div {
    // display:flex;
     flex-direction: column;
-    background-color:#F2B705;
+    //background-color:#F2B705;
+    background-image:url(../img/bg-img.jpg) ;
     width: 50rem;
     border: 3px black solid;
     align-items: center;
@@ -39,4 +42,27 @@ ol {
     }
   };
 
-  
+#icon{
+  color:black;
+  font-size: 25px;
+}
+
+
+  /*hadi version
+
+  ul li {
+    position : relative;
+    transition: 0.05s;
+  }
+  li:nth-child(2n) {
+    background-color: white;
+  }
+  .close{
+    padding: .5rem;
+    margin-left :3rem;
+    &:hover{
+      background-color: lightblue;
+      color:lightsalmon; 
+    }
+  }
+  */
